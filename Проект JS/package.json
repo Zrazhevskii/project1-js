@@ -1,0 +1,27 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "serv": "live-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zrazhevskii/project1-js.git#main"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Denis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zrazhevskii/project1-js/issues"
+  },
+  "homepage": "https://github.com/Zrazhevskii/project1-js/tree/main#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
