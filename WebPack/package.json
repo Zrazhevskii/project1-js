@@ -16,8 +16,9 @@
     "webpack-cli": "^5.1.1"
   },
   "devDependencies": {
+    "css-loader": "^6.8.1",
     "eslint": "^8.42.0",
     "html-webpack-plugin": "^5.5.1",
-    "live-server": "^1.2.2"
+    "live-server": "^1.1.0"
   }
 }
