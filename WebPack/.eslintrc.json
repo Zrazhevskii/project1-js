@@ -11,6 +11,7 @@
         "sourceType": "module"
     },
     "rules": {
+        "indent": "off",
         "no-console": "off", // ошибка - Unexpected console statement - Неожиданный оператор консоли
         "linebreak-style": 0,
         "no-restricted-syntax": [
