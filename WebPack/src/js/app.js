@@ -5,6 +5,7 @@ game.start();
 
 console.log('app worked');
 
-const gameSavingData = new GameSavingData();
-loadGame();
-saveGame();
+// убирание ошибок eslint
+// const gameSavingData = new GameSavingData();
+// loadGame();
+// saveGame();
