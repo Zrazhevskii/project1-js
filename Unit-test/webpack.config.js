@@ -1,11 +1,12 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { Template } = require('webpack');
 
 module.exports = {
-//   output: {
-//     path: path.resolve(__dirname, 'dist'),
-//   },
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+  },
   module: {
     rules: [
       {
