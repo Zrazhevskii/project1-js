@@ -2,4 +2,9 @@ import streakOfLife from "./health";
 
 console.log('И все таки он поехал');
 
-streakOfLife(90)
+let lists = {
+    name: 'Маг',
+    health: 90
+}
+
+console.log(streakOfLife(lists));
