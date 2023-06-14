@@ -1,4 +1,4 @@
-import { calcTotal } from '../src/app.js'
+import { calcTotal } from '../app.js'
 
 test('basic test', () => {
     const result = 4;
