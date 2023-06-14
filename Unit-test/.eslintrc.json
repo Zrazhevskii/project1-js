@@ -16,10 +16,15 @@
         "sourceType": "module"
     },
     "rules": {
+        "indent": "off", //ошибка - Expected indentation of 2 spaces but found 4
         "no-restricted-syntax": [
             "error",
             "LabeledStatement",
             "WithStatement"
+        ],
+        "linebreak-style": [ // ошибка - Expected linebreaks to be 'LF' but found 'CRLF'
+            "error", 
+            "windows"
         ]
     }
 }
