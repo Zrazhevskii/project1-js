@@ -16,6 +16,9 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off", // ошибка - Unexpected console statement - Неожиданный оператор консоли
+        "indent": "off", // ошибка - Expected indentation of 2 spaces but found 4
+        "linebreak-style": 0, // ошибка - Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
         "no-restricted-syntax": [
             "error",
             "LabeledStatement",
