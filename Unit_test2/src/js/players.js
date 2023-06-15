@@ -1,3 +1,4 @@
 export default function players(sortPlayers) {
-    console.log(sortPlayers.sort((a, b) => parseFloat(a.price) - parseFloat(b.price)));
+    const sortList = sortPlayers.sort((a, b) => parseFloat(b.health) - parseFloat(a.health));
+    console.log(sortList);
 }

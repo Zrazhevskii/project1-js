@@ -1,4 +1,4 @@
-import players from './app.js'
+import players from './players.js'
 
 const lists = [
     {name: 'мечник', health: 10},
