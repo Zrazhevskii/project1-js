@@ -1,4 +1,4 @@
-import players from './players.js'
+import sortPlayers from './players.js'
 
 const lists = [
     {name: 'мечник', health: 10},
