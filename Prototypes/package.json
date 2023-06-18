@@ -4,7 +4,11 @@
   "description": "\"homework lectures prototypes and constructors\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "coverage": "jest --coverage"
   },
   "author": "Zrazhevskii",
   "license": "ISC",
