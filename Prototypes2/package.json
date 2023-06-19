@@ -1,7 +1,7 @@
 {
   "name": "prototypes2",
   "version": "1.0.0",
-  "description": "\"the second task on lecture prototypes, constructors\"",
+  "description": "the second task on lecture prototypes, constructors",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
