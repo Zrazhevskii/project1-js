@@ -17,7 +17,7 @@ export default function Character(name, type) {
   }
 
   if (!types.includes(type)) {
-    throw new Error('Недопустимый тип игрока. Допускаются персонажи типа: Bowman, Swordsman, Magician, Daemon, Undead, Zombie');
+    throw new Error('Недопустимый тип игрока. Допустимый тип: Bowman, Swordsman, Magician, Daemon, Undead, Zombie');
   } 
   
   this.name = name;

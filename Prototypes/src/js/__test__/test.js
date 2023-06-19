@@ -11,3 +11,10 @@ test('check constructor', () => {
     defense: 25,
   })
 }) 
+test('name error', () => {
+  expect(() => new Character('Spydermanius', 'Bowman')).toThrow('Недопустимая длина имена, количество букв должно быть от 2 до 10');
+});
+
+test('type error', () => {
+  expect(() => new Character('Swordsman', 'Zombie')).toThrow('Недопустимый тип игрока. Допустимый тип: Bowman, Swordsman, Magician, Daemon, Undead, Zombie');
+});
