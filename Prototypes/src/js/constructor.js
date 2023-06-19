@@ -20,13 +20,13 @@ export default function Character(name, type) {
   if (name.length < 2 || name.length > 10) {
     throw new Error(
       'Недопустимая длина имена, количество букв должно быть от 2 до 10',
-    );
+      );
   }
 
   if (!types.includes(type)) {
     throw new Error(
       'Недопустимый тип игрока. Допустимый тип: Bowman, Swordsman, Magician, Daemon, Undead, Zombie',
-    );
+      );
   }
 
   this.name = name;
@@ -37,6 +37,5 @@ export default function Character(name, type) {
   this.defense = power[this.type].defense;
 }
 
-const person = new Character('Betman', 'Swordsman');
-
+const person = new Character('Swordsman', 'Daemon');
 console.log(person);
