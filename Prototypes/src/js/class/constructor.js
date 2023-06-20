@@ -32,5 +32,5 @@ export default class Character {
   }
 }  
 
-const person = new Character('Swordsman', 'Daemon');
-console.log(person);
+// const person = new Character('Swordsman', 'Daemon');
+// console.log(person);
