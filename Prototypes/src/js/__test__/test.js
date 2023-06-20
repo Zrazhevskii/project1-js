@@ -1,4 +1,4 @@
-import Character from '../constructor';
+import Character from '../class/constructor';
 
 test('check constructor', () => {
   const person = new Character('Person', 'Swordsman');
