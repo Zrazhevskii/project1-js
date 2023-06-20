@@ -1,4 +1,4 @@
-import Character from "./constructor";
+import Character from './constructor';
 
 export default class Bowman extends Character {
   constructor(name, type = 'Bowman') {

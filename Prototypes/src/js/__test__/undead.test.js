@@ -1,7 +1,7 @@
 import Undead from '../class/Undead';
 
 test('corrective object creation', () => {
-  const undead = new Undead('Undead')
+  const undead = new Undead('Undead');
   expect(undead).toEqual({
     name: 'Undead',
     type: 'Undead',
@@ -9,5 +9,5 @@ test('corrective object creation', () => {
     level: 1,
     attack: 25,
     defense: 25,
-  })
-})
+  });
+});

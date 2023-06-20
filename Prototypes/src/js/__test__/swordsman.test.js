@@ -1,7 +1,7 @@
-import Swordsman from '../class/Swordsman'
+import Swordsman from '../class/Swordsman';
 
 test('corrective object creation', () => {
-  const swordsman = new Swordsman('Swordsman')
+  const swordsman = new Swordsman('Swordsman');
   expect(swordsman).toEqual({
     name: 'Swordsman',
     type: 'Swordsman',
@@ -9,5 +9,5 @@ test('corrective object creation', () => {
     level: 1,
     attack: 40,
     defense: 10,
-  })
-})
+  });
+});

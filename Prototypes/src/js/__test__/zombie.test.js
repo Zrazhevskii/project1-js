@@ -1,7 +1,7 @@
 import Zombie from '../class/Zombie';
 
 test('corrective object creation', () => {
-  const zombie = new Zombie('Zombie')
+  const zombie = new Zombie('Zombie');
   expect(zombie).toEqual({
     name: 'Zombie',
     type: 'Zombie',
@@ -9,5 +9,5 @@ test('corrective object creation', () => {
     level: 1,
     attack: 40,
     defense: 10,
-  })
-})
+  });
+});
