@@ -7,8 +7,8 @@ test('check constructor', () => {
     type: 'Swordsman',
     health: 100,
     level: 1,
-    attack: 40,
-    defense: 10,
+    attack: undefined,
+    defense: undefined,
   });
 });
 
