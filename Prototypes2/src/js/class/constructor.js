@@ -30,4 +30,24 @@ export default class Character {
     this.attack = undefined;
     this.defense = undefined;
   }
+
+  levelUp() {
+    if (this.health > 0) {
+      this.level += 1;
+      this.health = 100;
+      this.attack += this.attack * 0.2;
+      this.defense += this.defense * 0.2;
+    }
+
+  }
+
+  damage(points) {
+    if (this.health >= 0) {
+        this.health -= points * (1 - this.defence / 100);
+    } else {
+        throw new Error(
+            'К сожалению, вы наносите урон уже мертвому персонажу, у него нет здоровья',
+        );
+    }
+  };
 }
