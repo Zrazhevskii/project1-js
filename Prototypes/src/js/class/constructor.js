@@ -19,7 +19,7 @@ export default class Character {
 
     if (!types.includes(type)) {
       throw new Error(
-        'Недопустимый тип игрока. Допустимый тип: Bowman, Swordsman, Magician, Daemon, Undead, Zombie',
+        'Неизвестный игрок'
       );
     } else {
       this.type = type;
@@ -32,5 +32,5 @@ export default class Character {
   }
 }
 
-// const person = new Character('Swordsman', 'Daemon');
-// console.log(person);
+const person = new Character('Swordsman', 'Daem');
+console.log(person);
