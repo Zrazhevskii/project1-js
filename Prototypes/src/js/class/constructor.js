@@ -19,7 +19,7 @@ export default class Character {
 
     if (!types.includes(type)) {
       throw new Error(
-        'Неизвестный игрок'
+        `Неизвестный тип игрока. Допустипые типы: ${types}`,
       );
     } else {
       this.type = type;
@@ -31,6 +31,3 @@ export default class Character {
     this.defense = undefined;
   }
 }
-
-const person = new Character('Swordsman', 'Daem');
-console.log(person);
