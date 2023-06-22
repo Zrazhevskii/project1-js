@@ -33,7 +33,7 @@ export default class Character {
 
     levelUp() {
         if (this.health <= 0) {
-            throw new Error('Нельзя повысить level умершего',);
+            throw new Error('Нельзя повысить level умершего');
         } else {
             this.level += 1;
             this.health = 100;
@@ -46,7 +46,6 @@ export default class Character {
     damage(points) {
         if (this.health >= 0) {
             this.health -= points * (1 - `${this.defense}` / 100);
-            return this.health;
         } else {
             throw new Error(
                 'Вы наносите урон уже мертвому персонажу, у него нет здоровья',

@@ -14,13 +14,13 @@ test('check constructor', () => {
 
 test('name error', () => {
     expect(() => new Character('Spydermanius', 'Bowman')).toThrow(
-        'Недопустимая длина имена, количество букв должно быть от 2 до 10'
+        'Недопустимая длина имена, количество букв должно быть от 2 до 10',
     );
 });
 
 test('type error', () => {
     expect(() => new Character('Swordsman', 'Zom')).toThrow(
-        'Неизвестный тип игрока. Допустипые типы: Bowman,Swordsman,Magician,Daemon,Undead,Zombie'
+        'Неизвестный тип игрока. Допустипые типы: Bowman,Swordsman,Magician,Daemon,Undead,Zombie',
     );
 });
 
@@ -42,7 +42,7 @@ test('operation of the levelUp function at zero health value', () => {
     const person = new Character('Person', 'Swordsman');
     person.health = 0;
 
-    expect(() => person.levelUp()).toThrow('Нельзя повысить level умершего',);
+    expect(() => person.levelUp()).toThrow('Нельзя повысить level умершего');
 });
 
 test('correct operation of the function damage', () => {
