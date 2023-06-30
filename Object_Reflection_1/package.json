@@ -1,0 +1,18 @@
+{
+  "name": "object_reflection_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-jest"
+  },
+  "author": "Zrazhevskii",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  }
+}
