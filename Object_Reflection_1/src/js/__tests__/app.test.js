@@ -42,5 +42,5 @@ test.each([
             defence: 40,
         };
         expect(orderByProps(obj, dataToSort)).toEqual(expected);
-    }
+    },
 );
