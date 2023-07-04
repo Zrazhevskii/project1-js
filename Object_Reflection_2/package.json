@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint .",
+    "coverage": "jest --coverage"
   },
   "author": "Zrazhevskii",
   "license": "ISC",
