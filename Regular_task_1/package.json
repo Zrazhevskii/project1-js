@@ -1,0 +1,16 @@
+{
+  "name": "regular_task_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Zrazhevskii",
+  "license": "ISC",
+  "devDependencies": {
+    "core-js": "^3.31.1",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
