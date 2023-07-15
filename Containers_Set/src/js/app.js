@@ -1,4 +1,4 @@
-class Team {
+export default class Team {
     constructor() {
       this.members = new Set();
     }
@@ -8,7 +8,6 @@ class Team {
         throw new Error('Такой персонаж уже есть');
       }
       this.members.add(name);
-      return this.members
     }
   
     addAll(...rest) {
@@ -21,8 +20,8 @@ class Team {
     }
   }
 
-const arr = new Team();
-console.log(arr.addAll('piton', 'hueton'));
-console.log(arr.addAll('zaraza', 'hueton'));
-console.log(arr.add('huetons'));
-console.log(arr.toArray());
+// const arr = new Team();
+// console.log(arr.addAll('piton', 'hueton'));
+// console.log(arr.addAll('zaraza', 'hueton'));
+// console.log(arr.add('huetons'));
+// console.log(arr.toArray());
