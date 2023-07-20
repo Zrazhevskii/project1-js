@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint .",
+    "coverage": "jest --coverage"
   },
   "author": "Zrazhevskii",
   "license": "ISC",
