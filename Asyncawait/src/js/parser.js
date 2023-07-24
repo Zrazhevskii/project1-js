@@ -1,5 +1,3 @@
-'use strict';
-
 export default function jsons(data) {
     return new Promise((resolve) => {
         // эмуляция обработки ArrayBuffer

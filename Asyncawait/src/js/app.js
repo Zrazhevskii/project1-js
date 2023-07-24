@@ -1,6 +1,4 @@
-'use strict';
-
-import GameSavingLoader from './GameSavingLoader.js';
+import GameSavingLoader from './GameSavingLoader';
 
 (async () => {
     try {
