@@ -1,3 +1,5 @@
+'use strict';
+
 export default function read() {
     return new Promise((resolve) => {
         // эмуляция чтения файла

@@ -1,11 +1,11 @@
-'use strict'
+'use strict';
 
-import GameSavingLoader from "./GameSavingLoader.js";
+import GameSavingLoader from './GameSavingLoader.js';
 
 (async () => {
-  try {
-    console.log(await GameSavingLoader.load());
-  } catch (error) {
-    console.log(error);
-  }
+    try {
+        console.log(await GameSavingLoader.load());
+    } catch (error) {
+        console.log(error);
+    }
 })();
