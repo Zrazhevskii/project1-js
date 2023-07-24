@@ -1,4 +1,4 @@
-export default function json(data) {
+export default function jsons(data) {
     return new Promise((resolve, reject) => {
       // эмуляция обработки ArrayBuffer
       setTimeout(() => {
