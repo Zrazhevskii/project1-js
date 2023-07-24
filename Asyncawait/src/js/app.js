@@ -1,10 +1,11 @@
-import GameSavingLoader from './GameSavingLoader';
+'use strict'
 
-GameSavingLoader.load()
-    .then((saving) => {
-        console.log(saving);
-        // saving объект класса GameSaving
-    })
-    .catch((error) => {
-        console.log(error);
-    });
+import GameSavingLoader from "./GameSavingLoader.js";
+
+(async () => {
+  try {
+    console.log(await GameSavingLoader.load());
+  } catch (error) {
+    console.log(error);
+  }
+})();
