@@ -4,7 +4,7 @@ export default class Team {
     }
 
     add(member) {
-        this.members.add(member)
+        this.members.add(member);
     }
 
     addAll(persons) {
@@ -17,10 +17,11 @@ export default class Team {
         return {
             next() {
                 if (count < arrTeam.length) {
-                    return { value: arrTeam[count++], done: false,}
-                };
-                return {value: undefined, done: true,}
-            }
-        }
+                    /* eslint-disable no-plusplus */
+                    return { value: arrTeam[count++], done: false };
+                }
+                return { value: undefined, done: true };
+            },
+        };
     }
 }
