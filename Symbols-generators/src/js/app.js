@@ -23,9 +23,7 @@ console.log(iter.next());
 console.log(iter.next());
 console.log(iter.next());
 console.log(iter.next());
-console.log(iter.next());
-console.log(iter.next());
-console.log(iter.next());
+
 
 for (const player of iter) {
     console.log(player);

@@ -11,8 +11,7 @@ export default class Team {
         this.members = new Set([...this.members, ...persons]);
     }
 
-    *[Symbol.iterator]() {
-        const arrTeam = Array.from(this.members);
+    * [Symbol.iterator]() {
         for (const person of this.members) {
             yield person;
           }
