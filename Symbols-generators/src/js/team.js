@@ -11,17 +11,10 @@ export default class Team {
         this.members = new Set([...this.members, ...persons]);
     }
 
-    [Symbol.iterator]() {
+    *[Symbol.iterator]() {
         const arrTeam = Array.from(this.members);
-        let count = 0;
-        return {
-            next() {
-                if (count < arrTeam.length) {
-                    /* eslint-disable no-plusplus */
-                    return { value: arrTeam[count++], done: false };
-                }
-                return { value: undefined, done: true };
-            },
-        };
+        for (const person of this.members) {
+            yield person;
+          }
     }
 }
